@@ -14,4 +14,7 @@ body {
  .info-work {
     text-align: center;
  }
+ .info-contact, .social-media {
+   text-align: center;
+ }
 }
