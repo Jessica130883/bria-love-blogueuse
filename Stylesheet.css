@@ -15,6 +15,10 @@ html, body {
     text-align: center;
     margin-top: 50px;
  }
+ span {
+   font-size: 30px;
+   font-weight: bold;
+ }
  .presentation {
    margin-top: 30px;
  }
@@ -52,6 +56,7 @@ html, body {
       height: 450px;
       width: 450px;
       border-radius: 15px;
+      padding-top: 120px;
    }
    .box-presentation {
       
@@ -59,6 +64,11 @@ html, body {
       height: 100%;
       float: right;
       background-color: lightpink;
+      padding-top: 120px;
    }
+  span {
+   font-size: 50px;
+   font-weight: bold;
+  }
   
 }
