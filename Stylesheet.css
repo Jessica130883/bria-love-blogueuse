@@ -17,4 +17,11 @@ body {
  .info-contact, .social-media {
    text-align: center;
  }
+ .button-blog, .button-podcast, .button-collaborations, .button-contact {
+   height: 35px;
+   width: 255px;
+   border-radius: 10px;
+   margin: 5px 5px;
+ }
+
 }
