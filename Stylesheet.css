@@ -6,6 +6,7 @@ html, body {
    height: 100%;
 }
 @media screen and (max-width: 640px) {
+ 
  .profile-picture {
     height: 150px;
     width: 150px;
@@ -42,6 +43,10 @@ html, body {
 
 }
 @media screen and (min-width: 641px) {
+   nav {
+      height: 50px;
+      text-align: center;
+   }
    .pic-profile {
       
       width: 50%;
