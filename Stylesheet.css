@@ -23,5 +23,11 @@ body {
    border-radius: 10px;
    margin: 5px 5px;
  }
+ .social-media {
+   margin-top: 25px;
+ }
+ .bi {
+   margin: 0 5px 0 5px;
+ }
 
 }
