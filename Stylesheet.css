@@ -34,3 +34,13 @@ body {
  }
 
 }
+@media screen and (min-width: 641px) {
+   .pic-profile {
+      text-align: left;
+   }
+   .profile-picture {
+      height: 450px;
+      width: 450px;
+      border-radius: 15px;
+   }
+}
