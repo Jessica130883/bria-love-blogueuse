@@ -52,10 +52,13 @@ html, body {
       
    }
    .profile-picture {
-      height: 450px;
-      width: 450px;
+      display: inline-block;
+      height: 400px;
+      width: 400px;
       border-radius: 15px;
-      padding-top: 120px;
+      margin: 120px 30px 120px 100px;
+      
+      
    }
    .box-presentation {
       
@@ -96,5 +99,7 @@ html, body {
    color: black;
    font-size: 20px;
   }
-  
+ button:hover {
+   background-color: lightgrey;
+ }
 }
