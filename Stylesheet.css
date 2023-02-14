@@ -11,7 +11,32 @@ html, body {
 .second-text, .third-text, button, .navbar-brand, .nav-link {
    font-family: 'trykker', sans-serif;
 }
+.profile-picture {
+   box-shadow: 5px 5px 4px black;
+}
 @media screen and (max-width: 640px) {
+   
+   .first-container {
+      background-image: url(images/Background-1.png);
+      background-color: #FCB5DD;
+   }
+   nav {
+      height: 10%;
+      
+   }
+   
+   .pic-profile {
+      
+      width: 100%;
+      margin-top: 30px;
+      text-align: center;
+   }
+   .box-presentation {
+      
+      width: 100%;
+      background-color: #FCB5DD;
+      padding-top: 40px;
+   }
 
  div.container-fluid {
    padding-left: 70px;
@@ -20,11 +45,9 @@ html, body {
     height: 150px;
     width: 150px;
     border-radius: 15px;
+    margin-bottom: -35px;
  }
- .pic-profile {
-    text-align: center;
-    margin-top: 50px;
- }
+
  .first-text {
    font-size: 28px;
    font-weight: bold;
@@ -64,6 +87,7 @@ html, body {
   footer {
    text-align: center;
    margin-top: 10px;
+   
    padding-bottom: 10px;
  }
  .text-footer, .bi-c-circle {
@@ -72,6 +96,7 @@ html, body {
 
 }
 @media screen and (min-width: 641px) {
+
    nav {
       height: 50px;
       text-align: center;
@@ -141,6 +166,7 @@ html, body {
  }
  footer {
    text-align: center;
+   
 
  }
  .text-footer, .bi-c-circle {
