@@ -13,6 +13,9 @@ html, body {
 }
 @media screen and (max-width: 640px) {
 
+ nav {
+   padding-left: 30px;
+ }
  .profile-picture {
     height: 150px;
     width: 150px;
@@ -58,6 +61,14 @@ html, body {
    color: black;
    font-size: 20px;
   }
+  footer {
+   text-align: center;
+   margin-top: 10px;
+   padding-bottom: 10px;
+ }
+ .text-footer, .bi-c-circle {
+   font-size: 15px;
+ }
 
 }
 @media screen and (min-width: 641px) {
@@ -127,5 +138,12 @@ html, body {
  button:hover {
    background-color: black;
    color:#FCB5DD;
+ }
+ footer {
+   text-align: center;
+
+ }
+ .text-footer, .bi-c-circle {
+   font-size: 15px;
  }
 }
