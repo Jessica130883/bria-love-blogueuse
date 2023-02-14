@@ -13,8 +13,8 @@ html, body {
 }
 @media screen and (max-width: 640px) {
 
- nav {
-   padding-left: 30px;
+ div.container-fluid {
+   padding-left: 70px;
  }
  .profile-picture {
     height: 150px;
