@@ -5,6 +5,12 @@
 html, body {
    height: 100%;
 }
+.first-text {
+   font-family: 'lora', sans-serif;
+}
+.second-text, .third-text, .button-blog, .navbar-brand, .nav-link {
+   font-family: 'trykker', sans-serif;
+}
 @media screen and (max-width: 640px) {
  
  .profile-picture {
