@@ -22,10 +22,16 @@ html, body {
     text-align: center;
     margin-top: 50px;
  }
- span {
-   font-size: 30px;
+ .first-text {
+   font-size: 28px;
    font-weight: bold;
- 
+ }
+ .second-text, .third-text {
+   font-size: 18px;
+
+ }
+ .box-presentation {
+   text-align: center;
  }
  .presentation {
    margin-top: 30px;
