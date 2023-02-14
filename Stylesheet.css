@@ -12,7 +12,7 @@ html, body {
    font-family: 'trykker', sans-serif;
 }
 @media screen and (max-width: 640px) {
- 
+
  .profile-picture {
     height: 150px;
     width: 150px;
@@ -54,6 +54,10 @@ html, body {
  .bi {
    margin: 0 5px 0 5px;
  }
+ i {
+   color: black;
+   font-size: 20px;
+  }
 
 }
 @media screen and (min-width: 641px) {
@@ -118,7 +122,7 @@ html, body {
   }
   i {
    color: black;
-   font-size: 20px;
+   font-size: 25px;
   }
  button:hover {
    background-color: black;
