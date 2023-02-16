@@ -14,10 +14,13 @@ html, body {
 .profile-picture {
    box-shadow: 5px 5px 4px black;
 }
+
 @media screen and (max-width: 640px) {
    
    .first-container {
       background-image: url(images/Background-1.png);
+   }
+   .nav-item {
       background-color: #FCB5DD;
    }
    nav {
@@ -99,11 +102,26 @@ html, body {
 
 }
 @media screen and (min-width: 641px) {
-
-   nav {
-      height: 50px;
-      text-align: center;
+   .wrapper {
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 50% 50%;
    }
+   .nav-left {
+    background-image: url(images/Background-1.png);
+    height: 50px;  
+   }
+   .nav-right {
+
+     background-color: #FCB5DD;
+     height: 50px; 
+   }
+   .link-accueil {
+      text-decoration: none;
+      color: black;
+      
+   }
+ 
    .pic-profile {
       
       width: 50%;
@@ -169,6 +187,7 @@ html, body {
  }
  footer {
    text-align: center;
+   margin-top: 50px;
    
 
  }
