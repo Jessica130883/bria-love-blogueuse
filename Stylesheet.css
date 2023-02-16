@@ -4,6 +4,7 @@
 }
 html, body {
    height: 100%;
+   
 }
 .first-text {
    font-family: 'lora', sans-serif;
@@ -35,18 +36,16 @@ html, body {
       margin-right: 30px;
       
    }
-   .first-container {
-      background-image: url(images/Background-1.png);
-   }
-   .nav-item {
-      background-color: #FCB5DD;
-   }
+ 
+  .box-profile, .wrapper {
+   background-image: url(images/Background-1.png);
+   
+  }
  
    
    .pic-profile {
       
       width: 100%;
-      margin-top: 30px;
       text-align: center;
    }
    .box-presentation {
