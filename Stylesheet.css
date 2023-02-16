@@ -41,7 +41,8 @@ html, body {
    }
  
   .box-profile, .wrapper {
-   background-image: url(images/Background-1.png);
+   background-image: url(images/Background.png);
+   
    
   }
  
@@ -133,8 +134,12 @@ html, body {
       grid-template-rows: 50% 50%;
       grid-template-columns: 50% 50%;
    }
+   .main-container {
+      background-image: url(images/Background.png);
+   }
    .nav-left {
-    background-image: url(images/Background-1.png);
+   background-image: url(images/Background.png);
+    background-size: auto;
     height: 50px;  
    }
    .nav-right {
@@ -154,7 +159,8 @@ html, body {
       width: 50%;
       height: 100%;
       float: left;
-      background-image: url(images/Background-1.png);
+      background-image: url(images/Background.png);
+      background-size: cover;
       
    }
    .profile-picture {
