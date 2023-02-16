@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+   overflow: hidden;
+}
 html, body {
    height: 100%;
    
@@ -118,12 +121,12 @@ html, body {
 @media screen and (min-width: 641px) {
 
    .title-website {
-      margin: 10px 0 0 50px;
+      padding: 10px 0 0 50px;
    }
    .link-home {
-      margin-top: 10px;
+      padding-top: 10px;
       text-align: right;
-      margin-right: 50px;
+      padding-right: 50px;
    }
    .wrapper {
       display: grid;
@@ -138,6 +141,7 @@ html, body {
 
      background-color: #FCB5DD;
      height: 50px; 
+
    }
    .link-accueil {
       text-decoration: none;
@@ -158,7 +162,7 @@ html, body {
       height: 400px;
       width: 400px;
       border-radius: 15px;
-      margin: 120px 30px 120px 100px;
+      margin: 120px 30px 250px 100px;
       
 
    }
@@ -171,6 +175,7 @@ html, body {
       background-color: #FCB5DD;
       padding-top: 120px;
    }
+ 
   .first-text {
    font-size: 40px;
    font-weight: bold;
