@@ -12,7 +12,7 @@ html, body {
 .first-text {
    font-family: 'lora', sans-serif;
 }
-.second-text, .third-text, button, .navbar-brand, .nav-link {
+.second-text, .third-text, button, .title-website, .link-accueil {
    font-family: 'trykker', sans-serif;
 }
 .profile-picture {
@@ -56,11 +56,10 @@ html, body {
       width: 100%;
       background-color: #FCB5DD;
       padding-top: 40px;
+      text-align: center;
    }
 
- div.container-fluid {
-   padding-left: 70px;
- }
+
  .profile-picture {
     height: 150px;
     width: 150px;
@@ -76,9 +75,7 @@ html, body {
    font-size: 18px;
 
  }
- .box-presentation {
-   text-align: center;
- }
+ 
  .presentation {
    margin-top: 30px;
  }
@@ -96,6 +93,7 @@ html, body {
  }
  .social-media {
    margin-top: 25px;
+   height: 200px;
  }
  .bi {
    margin: 0 5px 0 5px;
@@ -122,11 +120,13 @@ html, body {
 
    .title-website {
       padding: 10px 0 0 50px;
+      font-size: 20px;
    }
    .link-home {
       padding-top: 10px;
       text-align: right;
       padding-right: 50px;
+      font-size: 20px;
    }
    .wrapper {
       display: grid;
