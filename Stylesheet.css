@@ -16,17 +16,32 @@ html, body {
 }
 
 @media screen and (max-width: 640px) {
-   
+   .wrapper {
+      display: grid;
+      grid-template-rows: 50% 50%;
+      grid-template-columns: 50% 50%;
+      
+   }
+   .title-website {
+      margin-left: 10px;
+   }
+   .link-accueil {
+      text-decoration: none;
+      color: black;
+   }
+   .link-home {
+      margin-top: 10px;
+      text-align: right;
+      margin-right: 30px;
+      
+   }
    .first-container {
       background-image: url(images/Background-1.png);
    }
    .nav-item {
       background-color: #FCB5DD;
    }
-   nav {
-      height: 10%;
-      
-   }
+ 
    
    .pic-profile {
       
@@ -102,6 +117,15 @@ html, body {
 
 }
 @media screen and (min-width: 641px) {
+
+   .title-website {
+      margin: 10px 0 0 50px;
+   }
+   .link-home {
+      margin-top: 10px;
+      text-align: right;
+      margin-right: 50px;
+   }
    .wrapper {
       display: grid;
       grid-template-rows: 50% 50%;
